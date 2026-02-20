@@ -19,7 +19,7 @@ session = get_active_session()
 hifives_val = st.slider(
   "Number of high-fives in Q3",
   min_value=0,
-  max_value=90,
+  max_value=120,
   value=60,
   help="Use this to enter the number of high-fives you gave in Q3",
 )
